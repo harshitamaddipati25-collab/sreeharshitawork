@@ -131,7 +131,7 @@ export default function About() {
                     When I'm not working with data or debugging code, I'm usually staying active or 
                     exploring my creative side. You'll likely find me:
                   </p>
-                  <div className="flex flex-col lg:flex-row gap-8">
+                  <div className="flex flex-col md:flex-row gap-6">
                     <ul className="space-y-3 text-foreground/90 flex-1">
                       <li>
                         <span className="font-medium text-primary">On the Court:</span> I'm a huge basketball 
@@ -153,19 +153,19 @@ export default function About() {
                         data visualizations.
                       </li>
                     </ul>
-                    <div className="flex flex-row lg:flex-col gap-3 lg:w-40 flex-shrink-0">
-                      <div className="overflow-hidden rounded-xl shadow-md flex-1 lg:flex-none">
+                    <div className="flex flex-row md:flex-col gap-3 md:w-44 flex-shrink-0">
+                      <div className="overflow-hidden rounded-xl shadow-md">
                         <img
                           src={foodPhoto}
                           alt="Foodie adventures"
-                          className="w-full h-32 lg:h-36 object-cover hover:scale-105 transition-transform duration-300"
+                          className="w-full h-28 md:h-32 object-cover hover:scale-105 transition-transform duration-300"
                         />
                       </div>
-                      <div className="overflow-hidden rounded-xl shadow-md flex-1 lg:flex-none">
+                      <div className="overflow-hidden rounded-xl shadow-md">
                         <img
                           src={paintPhoto}
                           alt="Painting and creative expression"
-                          className="w-full h-32 lg:h-36 object-cover hover:scale-105 transition-transform duration-300"
+                          className="w-full h-28 md:h-32 object-cover hover:scale-105 transition-transform duration-300"
                         />
                       </div>
                     </div>
