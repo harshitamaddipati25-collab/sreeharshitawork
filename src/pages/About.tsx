@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Linkedin, Mail, ExternalLink } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { cn } from "@/lib/utils";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/profile-about.jpg";
 
 const sideNavLinks = [
   { name: "About", path: "/about" },
