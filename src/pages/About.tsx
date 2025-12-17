@@ -5,6 +5,8 @@ import { cn } from "@/lib/utils";
 import profilePhoto from "@/assets/profile-about.jpg";
 import foodPhoto from "@/assets/food-hobby.jpeg";
 import paintPhoto from "@/assets/paint-hobby.jpeg";
+import gymPhoto from "@/assets/gym-hobby.jpeg";
+import ramenPhoto from "@/assets/ramen-hobby.jpeg";
 
 const sideNavLinks = [
   { name: "About", path: "/about" },
@@ -131,43 +133,41 @@ export default function About() {
                     When I'm not working with data or debugging code, I'm usually staying active or 
                     exploring my creative side. You'll likely find me:
                   </p>
-                  <div className="flex flex-col md:flex-row gap-6">
-                    <ul className="space-y-3 text-foreground/90 flex-1">
-                      <li>
-                        <span className="font-medium text-primary">On the Court:</span> I'm a huge basketball 
-                        fan and player. I've picked up quite a few achievements over the years; that competitive 
-                        drive definitely carries over into my professional work.
-                      </li>
-                      <li>
-                        <span className="font-medium text-primary">Chasing Flavors:</span> I'm a total foodie. 
-                        I love exploring new cuisines and finding the best hidden gems in the city.
-                      </li>
-                      <li>
-                        <span className="font-medium text-primary">At the Gym:</span> Keeping a disciplined 
-                        routine at the gym helps me stay sharp and energized for my technical projects.
-                      </li>
-                      <li>
-                        <span className="font-medium text-primary">Creative Expression:</span> I have a deep 
-                        passion for fashion and painting. I love experimenting with styles and colors, finding 
-                        that the same eye for detail I use in art helps me design better user interfaces and 
-                        data visualizations.
-                      </li>
-                    </ul>
-                    <div className="flex flex-row gap-4 md:w-80 flex-shrink-0 items-start">
-                      <div className="overflow-hidden rounded-xl">
-                        <img
-                          src={foodPhoto}
-                          alt="Foodie adventures"
-                          className="block w-full hover:scale-105 transition-transform duration-300"
-                        />
-                      </div>
-                      <div className="overflow-hidden rounded-xl">
-                        <img
-                          src={paintPhoto}
-                          alt="Painting and creative expression"
-                          className="block w-full hover:scale-105 transition-transform duration-300"
-                        />
-                      </div>
+                  <ul className="space-y-3 text-foreground/90">
+                    <li>
+                      <span className="font-medium text-primary">On the Court:</span> I'm a huge basketball 
+                      fan and player. I've picked up quite a few achievements over the years; that competitive 
+                      drive definitely carries over into my professional work.
+                    </li>
+                    <li>
+                      <span className="font-medium text-primary">Chasing Flavors:</span> I'm a total foodie. 
+                      I love exploring new cuisines and finding the best hidden gems in the city.
+                    </li>
+                    <li>
+                      <span className="font-medium text-primary">At the Gym:</span> Keeping a disciplined 
+                      routine at the gym helps me stay sharp and energized for my technical projects.
+                    </li>
+                    <li>
+                      <span className="font-medium text-primary">Creative Expression:</span> I have a deep 
+                      passion for fashion and painting. I love experimenting with styles and colors, finding 
+                      that the same eye for detail I use in art helps me design better user interfaces and 
+                      data visualizations.
+                    </li>
+                  </ul>
+                  
+                  {/* Collage-style image gallery */}
+                  <div className="relative h-[400px] md:h-[450px] mt-8">
+                    <div className="absolute left-0 top-0 w-36 md:w-44 rounded-xl overflow-hidden shadow-lg rotate-[-3deg] hover:rotate-0 hover:scale-105 transition-all duration-300 z-10">
+                      <img src={foodPhoto} alt="Foodie adventures" className="w-full h-auto" />
+                    </div>
+                    <div className="absolute left-28 md:left-36 top-12 w-40 md:w-48 rounded-xl overflow-hidden shadow-lg rotate-[2deg] hover:rotate-0 hover:scale-105 transition-all duration-300 z-20">
+                      <img src={ramenPhoto} alt="Ramen adventures" className="w-full h-auto" />
+                    </div>
+                    <div className="absolute right-16 md:right-24 top-0 w-36 md:w-44 rounded-xl overflow-hidden shadow-lg rotate-[4deg] hover:rotate-0 hover:scale-105 transition-all duration-300 z-10">
+                      <img src={gymPhoto} alt="At the gym" className="w-full h-auto" />
+                    </div>
+                    <div className="absolute right-0 top-20 w-32 md:w-40 rounded-xl overflow-hidden shadow-lg rotate-[-2deg] hover:rotate-0 hover:scale-105 transition-all duration-300 z-30">
+                      <img src={paintPhoto} alt="Painting and creative expression" className="w-full h-auto" />
                     </div>
                   </div>
                 </div>
