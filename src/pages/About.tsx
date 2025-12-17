@@ -87,39 +87,75 @@ export default function About() {
 
               <div className="prose prose-lg max-w-none space-y-6 opacity-0 animate-fade-up stagger-1">
                 <p className="text-foreground/90 leading-relaxed">
-                  I'm a Master's student in Operations Management & Information Systems at{" "}
-                  <span className="font-medium">Northern Illinois University</span>, currently maintaining a 3.7 GPA. 
-                  My academic journey combines business acumen with technical expertise, allowing me to approach problems 
-                  from multiple angles.
+                  I am a Master's student in Operations Management & Information Systems at{" "}
+                  <span className="font-medium">Northern Illinois University</span> (GPA: 3.7/4.0), 
+                  where I bridge the gap between complex business logic and technical execution. 
+                  I don't just look at data; I look for the story it's trying to tell.
                 </p>
 
-                <p className="text-foreground/90 leading-relaxed">
-                  What drives me is the challenge of{" "}
-                  <span className="font-medium text-primary">
-                    turning complex processes into clear, data-driven solutions
-                  </span>
-                  . Whether it's building predictive models, creating intuitive web applications, or 
-                  analyzing healthcare data, I find satisfaction in making information accessible and actionable.
-                </p>
+                <div className="space-y-4">
+                  <h2 className="text-xl font-display text-foreground">What Drives Me</h2>
+                  <p className="text-foreground/90 leading-relaxed">
+                    I thrive on the challenge of transforming messy, complex processes into streamlined, 
+                    data-driven solutions. Whether I'm architecting predictive models, building intuitive 
+                    web applications, or diving deep into healthcare analytics, my goal is always the same: 
+                    making information accessible, actionable, and impactful.
+                  </p>
+                </div>
 
-                <p className="text-foreground/90 leading-relaxed">
-                  Currently, I'm working as a Research Assistant at NIU's College of Health & Human Sciences, 
-                  where I conduct surveys, analyze healthcare data using SQL and Power BI, and collaborate 
-                  with cross-functional teams to ensure data quality. This role has deepened my understanding 
-                  of how data impacts real-world decision-making.
-                </p>
+                <div className="space-y-4">
+                  <h2 className="text-xl font-display text-foreground">Current Impact</h2>
+                  <p className="text-foreground/90 leading-relaxed">
+                    As a Research Assistant at NIU's College of Health & Human Sciences, I act as the 
+                    data backbone for our team. I conduct targeted surveys and leverage SQL and Tableau 
+                    to turn healthcare data into visual narratives. Collaborating across departments, 
+                    I ensure our data quality is pristine, helping translate raw numbers into real-world 
+                    decisions that affect human lives.
+                  </p>
+                </div>
 
-                <p className="text-foreground/90 leading-relaxed">
-                  I'm building toward a career in tech/data roles where I can combine my analytical skills 
-                  with business understanding. I'm particularly interested in opportunities that allow me to 
-                  work on machine learning applications, data analytics, or product-facing technology.
-                </p>
+                <div className="space-y-4">
+                  <h2 className="text-xl font-display text-foreground">The Goal</h2>
+                  <p className="text-foreground/90 leading-relaxed">
+                    I am building a career at the intersection of tech and strategy—specifically in 
+                    Machine Learning, Data Analytics, or Product-focused roles. I'm looking for a team 
+                    that values a mix of analytical rigor and creative problem-solving.
+                  </p>
+                </div>
 
-                <div className="pt-4">
-                  <p className="text-muted-foreground text-sm italic">
-                    Outside of work and study, I enjoy exploring new technologies, contributing to projects 
-                    that have real-world impact, and continuously learning through online courses and 
-                    collaborative projects.
+                <div className="space-y-4">
+                  <h2 className="text-xl font-display text-foreground">Beyond the Screen</h2>
+                  <p className="text-foreground/90 leading-relaxed">
+                    When I'm not working with data or debugging code, I'm usually staying active or 
+                    exploring my creative side. You'll likely find me:
+                  </p>
+                  <ul className="space-y-3 text-foreground/90">
+                    <li>
+                      <span className="font-medium text-primary">On the Court:</span> I'm a huge basketball 
+                      fan and player. I've picked up quite a few achievements over the years; that competitive 
+                      drive definitely carries over into my professional work.
+                    </li>
+                    <li>
+                      <span className="font-medium text-primary">Chasing Flavors:</span> I'm a total foodie. 
+                      I love exploring new cuisines and finding the best hidden gems in the city.
+                    </li>
+                    <li>
+                      <span className="font-medium text-primary">At the Gym:</span> Keeping a disciplined 
+                      routine at the gym helps me stay sharp and energized for my technical projects.
+                    </li>
+                    <li>
+                      <span className="font-medium text-primary">Creative Expression:</span> I have a deep 
+                      passion for fashion and painting. I love experimenting with styles and colors, finding 
+                      that the same eye for detail I use in art helps me design better user interfaces and 
+                      data visualizations.
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="pt-4 border-l-2 border-primary/30 pl-4">
+                  <p className="text-muted-foreground italic">
+                    "When I'm not at my desk, you'll probably find me at gym, hitting a three-pointer 
+                    or hunting for the best ramen in town."
                   </p>
                 </div>
               </div>
