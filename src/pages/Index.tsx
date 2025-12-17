@@ -80,7 +80,7 @@ export default function Index() {
                   <img
                     src={profilePhoto}
                     alt="Sree Harshita Maddipati"
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
