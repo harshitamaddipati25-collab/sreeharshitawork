@@ -161,13 +161,13 @@ export default function About() {
                       <img src={foodPhoto} alt="Foodie adventures" className="w-full h-auto" />
                     </div>
                     <div className="absolute left-28 md:left-36 top-12 w-40 md:w-48 rounded-xl overflow-hidden shadow-lg rotate-[2deg] hover:rotate-0 hover:scale-105 transition-all duration-300 z-20">
-                      <img src={ramenPhoto} alt="Ramen adventures" className="w-full h-auto" />
+                      <img src={paintPhoto} alt="Painting and creative expression" className="w-full h-auto" />
                     </div>
                     <div className="absolute right-16 md:right-24 top-0 w-36 md:w-44 rounded-xl overflow-hidden shadow-lg rotate-[4deg] hover:rotate-0 hover:scale-105 transition-all duration-300 z-10">
                       <img src={gymPhoto} alt="At the gym" className="w-full h-auto" />
                     </div>
                     <div className="absolute right-0 top-20 w-32 md:w-40 rounded-xl overflow-hidden shadow-lg rotate-[-2deg] hover:rotate-0 hover:scale-105 transition-all duration-300 z-30">
-                      <img src={paintPhoto} alt="Painting and creative expression" className="w-full h-auto" />
+                      <img src={ramenPhoto} alt="Ramen adventures" className="w-full h-auto" />
                     </div>
                   </div>
                 </div>
