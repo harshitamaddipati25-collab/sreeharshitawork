@@ -153,19 +153,19 @@ export default function About() {
                         data visualizations.
                       </li>
                     </ul>
-                    <div className="flex flex-row md:flex-col gap-4 md:w-56 flex-shrink-0">
-                      <div className="overflow-hidden rounded-xl shadow-md flex-1 md:flex-none">
+                    <div className="flex flex-row gap-4 md:w-72 flex-shrink-0">
+                      <div className="overflow-hidden rounded-xl shadow-md flex-1">
                         <img
                           src={foodPhoto}
                           alt="Foodie adventures"
-                          className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
+                          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                         />
                       </div>
-                      <div className="overflow-hidden rounded-xl shadow-md flex-1 md:flex-none">
+                      <div className="overflow-hidden rounded-xl shadow-md flex-1">
                         <img
                           src={paintPhoto}
                           alt="Painting and creative expression"
-                          className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
+                          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                         />
                       </div>
                     </div>
