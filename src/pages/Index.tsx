@@ -69,7 +69,7 @@ export default function Index() {
                 <Button asChild variant="hero-outline" size="lg">
                   <Link to="/contact">Contact Me</Link>
                 </Button>
-                <Button asChild variant="subtle" size="lg">
+                <Button asChild variant="resume" size="lg">
                   <a href="/resume/SreeHarshitaMaddipati_Resume.pdf" download>
                     <Download className="w-4 h-4 mr-1" />
                     Download Resume
