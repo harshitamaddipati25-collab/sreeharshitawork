@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Briefcase, Code, BarChart3, Database } from "lucide-react";
+import { ArrowRight, Briefcase, Code, BarChart3, Database, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/Layout";
 import profilePhoto from "@/assets/profile-home.jpg";
@@ -68,6 +68,12 @@ export default function Index() {
                 </Button>
                 <Button asChild variant="hero-outline" size="lg">
                   <Link to="/contact">Contact Me</Link>
+                </Button>
+                <Button asChild variant="subtle" size="lg">
+                  <a href="/resume/SreeHarshitaMaddipati_Resume.pdf" download>
+                    <Download className="w-4 h-4 mr-1" />
+                    Download Resume
+                  </a>
                 </Button>
               </div>
             </div>
