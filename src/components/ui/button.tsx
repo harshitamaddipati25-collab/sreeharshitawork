@@ -21,6 +21,7 @@ const buttonVariants = cva(
         pastel: "bg-sage text-primary hover:bg-sage/80 shadow-sm hover:shadow-md",
         "pastel-blush": "bg-blush text-secondary-foreground hover:bg-blush/80",
         subtle: "bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground",
+        resume: "bg-gradient-to-r from-primary to-accent-foreground text-primary-foreground shadow-md hover:shadow-lg hover:-translate-y-0.5",
       },
       size: {
         default: "h-10 px-5 py-2",
