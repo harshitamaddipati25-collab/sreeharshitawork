@@ -72,12 +72,9 @@ export function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Sree Harshita Maddipati. All rights reserved.
-          </p>
-          <p className="text-xs text-muted-foreground">
-            Designed with care in DeKalb, IL
+        <div className="mt-12 pt-8 border-t border-border flex flex-col items-center justify-center gap-2">
+          <p className="text-sm text-muted-foreground">
+            © {new Date().getFullYear()} Sree Harshita Maddipati. Built with ❤️ and lots of coffee.
           </p>
         </div>
       </div>
