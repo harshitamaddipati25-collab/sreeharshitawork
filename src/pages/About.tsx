@@ -92,7 +92,7 @@ export default function About() {
               <div className="prose prose-lg max-w-none space-y-6 opacity-0 animate-fade-up stagger-1">
                 <p className="text-foreground/90 leading-relaxed">
                   I am a Master's student in Operations Management & Information Systems at{" "}
-                  <span className="font-medium">Northern Illinois University</span> (GPA: 3.7/4.0), 
+                  <span className="font-medium">Northern Illinois University</span> (GPA: 3.8/4.0), 
                   where I bridge the gap between complex business logic and technical execution. 
                   I don't just look at data; I look for the story it's trying to tell.
                 </p>
