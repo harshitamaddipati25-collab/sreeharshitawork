@@ -59,7 +59,7 @@ export function Footer() {
                 +1 (224) 230 7127
               </a>
               <a
-                href="https://linkedin.com/in/sree-harshita-18678922a"
+                href="https://www.linkedin.com/in/sree-harshita-maddipati-18678922a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors"
