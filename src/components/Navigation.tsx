@@ -48,7 +48,7 @@ export function Navigation() {
           {/* Desktop Social Links */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://linkedin.com/in/sree-harshita-18678922a"
+              href="https://www.linkedin.com/in/sree-harshita-maddipati-18678922a/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-muted transition-colors"
@@ -103,7 +103,7 @@ export function Navigation() {
           ))}
           <div className="flex items-center gap-4 px-4 pt-4 border-t border-border mt-2">
             <a
-              href="https://linkedin.com/in/sree-harshita-18678922a"
+              href="https://www.linkedin.com/in/sree-harshita-maddipati-18678922a/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"

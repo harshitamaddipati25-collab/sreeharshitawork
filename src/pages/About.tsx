@@ -57,7 +57,7 @@ export default function About() {
               {/* Social Links */}
               <div className="flex items-center gap-3 opacity-0 animate-fade-up stagger-2">
                 <a
-                  href="https://linkedin.com/in/sree-harshita-18678922a"
+                  href="https://www.linkedin.com/in/sree-harshita-maddipati-18678922a/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg bg-muted/50 hover:bg-muted text-muted-foreground hover:text-foreground transition-colors"
