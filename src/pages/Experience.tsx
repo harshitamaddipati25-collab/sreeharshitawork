@@ -3,6 +3,23 @@ import { MapPin, Calendar, Building } from "lucide-react";
 
 const experiences = [
   {
+    title: "Business Consultant",
+    company: "Total Quality Logistics (TQL)",
+    location: "DeKalb, IL",
+    period: "Jan 2025 – Present",
+    responsibilities: [
+      "Partnered with TQL leadership to design a data-driven marketing and business strategy to strengthen competitive positioning in the logistics industry",
+      "Conducted SEO, brand awareness, and value proposition analysis, translating marketing performance metrics into actionable growth insights",
+      "Developed a comprehensive SWOT analysis using competitive, operational, and market data to support strategic decision-making",
+      "Analyzed employee retention trends and operational workflows to identify data-backed strategies for improving workforce engagement and retention",
+      "Evaluated service pricing models using business analytics principles to assess competitiveness, margin optimization, and scalability",
+      "Researched and proposed AI-driven solutions for demand forecasting, pricing optimization, and decision support systems to enhance operational efficiency",
+      "Collaborated within a consulting team to bridge business strategy, data analysis, and technology, delivering executive-level recommendations",
+    ],
+    skills: ["Business Strategy", "Data Analytics", "SEO", "SWOT Analysis", "AI Solutions", "Marketing"],
+    color: "bg-lavender",
+  },
+  {
     title: "Research Assistant",
     company: "Northern Illinois University",
     department: "College of Health & Human Sciences, Survey Research Lab",
