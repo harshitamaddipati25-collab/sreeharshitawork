@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Briefcase, Code, BarChart3, Database, Download } from "lucide-react";
+import { ArrowRight, Briefcase, Code, BarChart3, Database } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/Layout";
 import profilePhoto from "@/assets/profile-home.jpg";
