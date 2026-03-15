@@ -114,8 +114,35 @@ export default function Skills() {
             ))}
           </div>
 
+          {/* Graduate Courses */}
+          <div className="mt-16 opacity-0 animate-fade-up stagger-4">
+            <div className="flex justify-end">
+              <div className="w-full lg:w-1/3">
+                <p className="text-primary font-medium italic text-base mb-3">Graduate Courses</p>
+                <ul className="space-y-1">
+                  {[
+                    "Tableau",
+                    "SQL",
+                    "Advanced Python",
+                    "Statistical Analysis",
+                    "Project Management",
+                    "Business Systems Applications and Design",
+                    "Digital Transformation Strategy",
+                    "Cyber Security",
+                    "SAP",
+                    "Machine Learning",
+                  ].map((course) => (
+                    <li key={course} className="text-foreground/80 text-sm">
+                      {course}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+
           {/* Additional Info */}
-          <div className="mt-16 text-center opacity-0 animate-fade-up stagger-4">
+          <div className="mt-10 text-center opacity-0 animate-fade-up stagger-5">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-muted/50 rounded-full text-sm text-muted-foreground">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               Always learning and expanding my toolkit
