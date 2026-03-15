@@ -92,7 +92,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/sree-harshita-18678922a"
+                  href="https://www.linkedin.com/in/sree-harshita-maddipati-18678922a/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary/30 transition-colors group"
