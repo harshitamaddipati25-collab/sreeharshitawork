@@ -116,28 +116,24 @@ export default function Skills() {
 
           {/* Graduate Courses */}
           <div className="mt-16 opacity-0 animate-fade-up stagger-4">
-            <div className="flex justify-end">
-              <div className="w-full lg:w-1/3">
-                <p className="text-primary font-medium italic text-base mb-3">Graduate Courses</p>
-                <ul className="space-y-1">
-                  {[
-                    "Tableau",
-                    "SQL",
-                    "Advanced Python",
-                    "Statistical Analysis",
-                    "Project Management",
-                    "Business Systems Applications and Design",
-                    "Digital Transformation Strategy",
-                    "Cyber Security",
-                    "SAP",
-                    "Machine Learning",
-                  ].map((course) => (
-                    <li key={course} className="text-foreground/80 text-sm">
-                      {course}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <p className="text-primary font-medium italic text-base mb-4">Graduate Courses</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-6 gap-y-2">
+              {[
+                "Tableau",
+                "SQL",
+                "Advanced Python",
+                "Statistical Analysis",
+                "Project Management",
+                "Business Systems Applications and Design",
+                "Digital Transformation Strategy",
+                "Cyber Security",
+                "SAP",
+                "Machine Learning",
+              ].map((course) => (
+                <span key={course} className="text-foreground/80 text-sm">
+                  {course}
+                </span>
+              ))}
             </div>
           </div>
 
